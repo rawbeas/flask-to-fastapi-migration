@@ -1,0 +1,27 @@
+# Receipt Verification Service — FastAPI dependencies
+# Install: pip install -r requirements.txt
+#
+# ❌ Do NOT install pymongo[srv] — Motor bundles pymongo internally.
+
+# Web framework + ASGI server + form/file upload support
+fastapi[standard]>=0.111.0
+
+# Async MongoDB driver (replaces pymongo for this app)
+motor>=3.6.0
+
+# Load .env files
+python-dotenv==1.0.1
+
+# Rate limiting (API Security)
+slowapi==0.1.9
+
+# JWT authentication (API Security)
+PyJWT==2.9.0
+
+# Prometheus metrics (Monitoring / Production Readiness)
+prometheus-client==0.20.0
+
+# Testing
+pytest==8.2.0
+pytest-asyncio>=1.0.0
+httpx==0.27.0

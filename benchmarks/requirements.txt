@@ -1,0 +1,4 @@
+# Benchmark dependencies
+# Install: pip install -r benchmarks/requirements.txt
+
+locust>=2.20.0

@@ -1,0 +1,23 @@
+# Virtual environment (deps are installed inside the image via requirements.txt)
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Secrets — NEVER bake these into the image; pass at runtime with --env-file
+.env
+
+# Git metadata
+.git
+.gitignore
+
+# Test artefacts
+.pytest_cache/
+tests/
+
+# IDE
+.vscode/
+.idea/

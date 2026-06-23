@@ -1,0 +1,28 @@
+# Receipt Verification Service — Flask dependencies
+# Install: pip install -r requirements.txt
+
+# Web framework
+flask==3.0.3
+
+# MongoDB Atlas driver
+# pymongo[srv] includes dnspython which is required for mongodb+srv:// URIs
+pymongo[srv]==4.7.2
+
+# Load .env files
+python-dotenv==1.0.1
+
+# Rate limiting (API Security)
+flask-limiter==3.7.0
+
+# JWT authentication (API Security)
+PyJWT==2.9.0
+
+# Prometheus metrics (Monitoring / Production Readiness)
+prometheus-client==0.20.0
+
+# Production WSGI server (Deployment) — used in Dockerfile instead of
+# the Flask dev server. Not used for local `python app.py`.
+gunicorn==22.0.0
+
+# Testing
+pytest==8.2.0

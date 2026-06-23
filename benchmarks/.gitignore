@@ -1,0 +1,4 @@
+# Benchmark output -- regenerated on every run, don't commit
+results/locust/
+results/ab/
+results/jmeter/
