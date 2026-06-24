@@ -18,9 +18,9 @@ project-root/
 ```
 
 Each folder has its own README with full details:
-- [Flask app →](flask-app/README.md)
-- [FastAPI app →](fastapi-app/README.md)
-- [Benchmarks →](benchmarks/README.md)
+- [Flask app →](flask-app/FLASK_README.md)
+- [FastAPI app →](fastapi-app/FASTAPI_README.md)
+- [Benchmarks →](benchmarks/BENCHMARKS_README.md)
 
 ---
 
