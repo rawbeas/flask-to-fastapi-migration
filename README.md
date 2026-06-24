@@ -101,7 +101,7 @@ Swagger UI (interactive docs): `http://localhost:8000/docs`
 3. **Network Access** → Add IP Address → Add Current IP (or `0.0.0.0/0` for development)
 4. **Connect** → Drivers → copy the connection string → replace `<password>` → paste as `MONGODB_URI` in both `.env` files
 
-> ⚠️ The `.env` files are gitignored — they will never be pushed to GitHub. Never put your real password in `.env.example`.
+
 
 ---
 
